@@ -9,6 +9,22 @@ public class Animal {
     private String especie;
     private int idade;
 
+    // Default Construtor
+    public Animal() {
+    }
+
+    // Construtor com parâmetros: para inicializar alguns atributos do objeto.
+    public Animal(String nome, String especie, int idade) {
+        this.nome = nome;
+        this.especie = especie;
+        this.idade = idade;
+    }
+
+    // Sobrecarga: versões diferentes de um construtor/método, modificando somente a assinatura.
+    public Animal(String nome) {
+        this.nome = nome;
+    }
+
     /*
      * === Métodos acessores ===
      * Aplicando conceitos de encapsulamento
