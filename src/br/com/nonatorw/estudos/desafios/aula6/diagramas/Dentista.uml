@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>br.com.nonatorw.estudos.desafios.aula6.Dentista</OriginalElement>
+  <nodes>
+    <node x="-231.0" y="-119.0">br.com.nonatorw.estudos.desafios.aula6.Dentista</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="1.0" x="-85.5" y="109.0" />
+  <SelectedNodes>
+    <node>br.com.nonatorw.estudos.desafios.aula6.Dentista</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
