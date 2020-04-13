@@ -1,13 +1,18 @@
 package br.com.nonatorw.estudos.zoologico;
 
 public class Animal {
-    /**
-     * Aplicando conceitos de encapsulamento: variaveis privadas e métodos acessores
+    /*
+     * === Atributos da Classe ===
+     * Aplicando conceitos de encapsulamento: escopo privado
      */
     private String nome;
     private String especie;
     private int idade;
 
+    /*
+     * === Métodos acessores ===
+     * Aplicando conceitos de encapsulamento
+     */
     public String getNome() {
         return nome;
     }
@@ -30,5 +35,16 @@ public class Animal {
 
     public void setIdade(int idade) {
         this.idade = idade;
+    }
+
+    /*
+     * Métodos: Comportamentos do objeto
+     */
+    public void emitirBarulho() {
+        System.out.println("Barulho do animal");
+    }
+
+    public Boolean ehAdulto() {
+        return idade >= 1;
     }
 }
