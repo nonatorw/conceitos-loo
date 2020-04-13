@@ -1,6 +1,6 @@
 package br.com.nonatorw.estudos.zoologico.app;
 
-import br.com.nonatorw.estudos.zoologico.Animal;
+import br.com.nonatorw.estudos.zoologico.classes.Animal;
 
 public class Programa {
     public static void main(String[] args) {
